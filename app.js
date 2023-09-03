@@ -24,7 +24,7 @@ function displayList(){
     for(let i = 0;i<bucketList.length;i++){
         var li = document.createElement("li") //<li> </li>
         //inserting the array elements
-        li.innerHTML = bucketList[i] + `<span><img onclick="remove(`+i+`)" src="https://kq-storage.s3.ap-south-1.amazonaws.com/Github/bucketlist/tick-mark%5B1%5D.png" alt=""</span>`;
+        li.innerHTML = bucketList[i] + `<span><img id=tick onclick="remove(`+i+`)" src="https://kq-storage.s3.ap-south-1.amazonaws.com/Github/bucketlist/tick-mark%5B1%5D.png" alt=""</span>`;
         console.log("li: ", li);
         //inserting the <li> </li> tag crated into the ul #list-container
         listContainer.append(li)

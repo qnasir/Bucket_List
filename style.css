@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&family=Open+Sans:ital,wght@0,400;1,300&family=Playfair+Display:wght@500&family=Poppins&family=Roboto&display=swap');
+
 body{
     background-image: url("https://kq-storage.s3.ap-south-1.amazonaws.com/Github/bucketlist/bucket-list-bg%5B1%5D.png");
     background-repeat: no-repeat;
@@ -9,6 +10,8 @@ body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+
+    /* styling the header */
 
 h1{
     color: white;
@@ -49,6 +52,8 @@ p{
     text-align: center;
 }
 
+    /* styling reset button */
+
 .btn-reset{
     height: 38px;
     width: 200px;
@@ -62,11 +67,15 @@ p{
     margin-top: 60px;
 }
 
+    /* styling footer */
+
 .footer{
     margin-top: 50px;
     text-align: center;
 }
 
+    /* styling javascript */
+    
 #list-container{
     list-style-type: none;
     text-align: justify;
@@ -86,4 +95,8 @@ ul li {
 
 .input-container {
     text-align: center;
+}
+
+li img{
+    margin-left: 320px;
 }
